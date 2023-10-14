@@ -2,7 +2,12 @@
 In this project, we constructed a streaming event pipeline around Apache Kafka and its ecosystem. Using public data from the Chicago Transit Authority we will construct an event pipeline around Kafka that allows us to simulate and display the status of train lines in real time.
 
 With the completed project, you will be able to monitor a website to watch trains move from station to station. So a sample static view of the website page you create might look like this:
+
 ![Alt text](traffic-live-data-stream/images/diagram.png)
+
+Result UI:
+
+![Alt text](traffic-live-data-stream/images/ui.png)
 
 # Project: 2. Human-balance-stream
 Assume that you work for the data science team at STEDI, a small startup focused on assessing balance for seniors. STEDI has an application that collects data from seniors during a small exercise. The user logs in and then selects the customer they are working with. Then the user starts a timer and clicks a button with each step the senior takes. When the senior has reached 30 steps, their test is finished. The data transmitted enables the application to monitor seniors’ balance risk.
