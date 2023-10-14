@@ -23,6 +23,9 @@ The STEDI data science team has configured some real-time data sources using Kaf
 The application development team has programmed certain business events to be published automatically to Kafka. Whenever a customer takes an assessment, their risk score is generated, as long as they have four or more completed assessments. The risk score is transmitted to a Kafka topic called stedi-events as a JSON object with this format:
 `{"customer":"Jason.Mitra@test.com","score":7.0,"riskDate":"2020-09-14T07:54:06.417Z"}`
 The application development team was not able to complete the feature as the graph is currently not receiving any data. Because the graph is currently not receiving any data, you need to generate a new payload in a Kafka topic and make it available to the STEDI application to consume.
-Results:
 
-![Alt text](human-balance-stream/project/images/populated_graph.png)
+End results:
+
+![Alt text](human-balance-stream/project/images/human_result.png)
+
+![Alt text](human-balance-stream/project/images/human_result2.png)
